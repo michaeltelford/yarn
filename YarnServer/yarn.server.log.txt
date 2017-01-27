@@ -1,0 +1,65 @@
+﻿
+-----------------------------------------------------
+Thu Apr 17 09:46:29 BST 2014 : server started
+
+
+-----------------------------------------------------
+Thu Apr 17 11:47:16 BST 2014 : server started
+
+Thu Apr 17 11:47:33 BST 2014 : client connected @micky [127.0.0.1:50586] (1 client(s) currently connected)
+
+-----------------------------------------------------
+Wed Apr 23 23:41:48 BST 2014 : server started
+
+Wed Apr 23 23:42:44 BST 2014 : client connected @micky [127.0.0.1:53408] (1 client(s) currently connected)
+Wed Apr 23 23:42:48 BST 2014 : client connected @jimmy [127.0.0.1:53409] (2 client(s) currently connected)
+Wed Apr 23 23:46:40 BST 2014 : voice share request [@micky -> @jimmy] (VoiceRecording.wav (162902 bytes) : rejected)
+Wed Apr 23 23:47:00 BST 2014 : voice share request [@micky -> @jimmy] (VoiceRecording.wav (162902 bytes) : rejected)
+Wed Apr 23 23:49:31 BST 2014 : client disconnected @jimmy [127.0.0.1:53409] (1 client(s) currently connected)
+Wed Apr 23 23:50:22 BST 2014 : client disconnected @micky [127.0.0.1:53408] (0 client(s) currently connected)
+Wed Apr 23 23:50:27 BST 2014 : client connected @micky [127.0.0.1:53412] (1 client(s) currently connected)
+Wed Apr 23 23:50:37 BST 2014 : client connected @jimmy [127.0.0.1:53413] (2 client(s) currently connected)
+Wed Apr 23 23:50:42 BST 2014 : client disconnected @micky [127.0.0.1:53412] (1 client(s) currently connected)
+Wed Apr 23 23:50:51 BST 2014 : client connected @micky [127.0.0.1:53414] (2 client(s) currently connected)
+Wed Apr 23 23:51:11 BST 2014 : client disconnected @jimmy [127.0.0.1:53413] (1 client(s) currently connected)
+
+-----------------------------------------------------
+Sat May 24 14:48:03 BST 2014 : server started
+
+Sat May 24 14:48:32 BST 2014 : client connected @micky [127.0.0.1:49816] (1 client(s) currently connected)
+Sat May 24 14:48:38 BST 2014 : client connected @jimmy [127.0.0.1:49817] (2 client(s) currently connected)
+Sat May 24 14:52:00 BST 2014 : client disconnected @micky [127.0.0.1:49816] (1 client(s) currently connected)
+Sat May 24 14:52:00 BST 2014 : client disconnected @jimmy [127.0.0.1:49817] (0 client(s) currently connected)
+Sat May 24 14:52:12 BST 2014 : client connected @micky [127.0.0.1:49841] (1 client(s) currently connected)
+Sat May 24 14:52:18 BST 2014 : client connected @jimmy [127.0.0.1:49842] (2 client(s) currently connected)
+Sat May 24 14:53:49 BST 2014 : client disconnected @micky [127.0.0.1:49841] (1 client(s) currently connected)
+Sat May 24 14:53:49 BST 2014 : client disconnected @jimmy [127.0.0.1:49842] (0 client(s) currently connected)
+Sat May 24 14:54:35 BST 2014 : client connected @micky [127.0.0.1:49861] (1 client(s) currently connected)
+Sat May 24 14:54:38 BST 2014 : client connected @jimmy [127.0.0.1:49862] (2 client(s) currently connected)
+Sat May 24 14:54:59 BST 2014 : client disconnected @jimmy [127.0.0.1:49862] (1 client(s) currently connected)
+Sat May 24 14:54:59 BST 2014 : client disconnected @micky [127.0.0.1:49861] (0 client(s) currently connected)
+Sat May 24 14:56:47 BST 2014 : client connected @micky [127.0.0.1:49877] (1 client(s) currently connected)
+Sat May 24 14:56:51 BST 2014 : client connected @jimmy [127.0.0.1:49878] (2 client(s) currently connected)
+Sat May 24 15:00:16 BST 2014 : client disconnected @jimmy [127.0.0.1:49878] (1 client(s) currently connected)
+Sat May 24 15:00:16 BST 2014 : client disconnected @micky [127.0.0.1:49877] (0 client(s) currently connected)
+Sat May 24 15:00:24 BST 2014 : client connected @micky [127.0.0.1:49904] (1 client(s) currently connected)
+Sat May 24 15:00:27 BST 2014 : client connected @jimmy [127.0.0.1:49905] (2 client(s) currently connected)
+Sat May 24 15:01:42 BST 2014 : client disconnected @micky [127.0.0.1:49904] (1 client(s) currently connected)
+Sat May 24 15:01:42 BST 2014 : client disconnected @jimmy [127.0.0.1:49905] (1 client(s) currently connected)
+
+-----------------------------------------------------
+Sat May 24 15:31:40 BST 2014 : server started
+
+Sat May 24 15:31:56 BST 2014 : client connected @micky [127.0.0.1:50120] (1 client(s) currently connected)
+Sat May 24 15:31:59 BST 2014 : client connected @jimmy [127.0.0.1:50121] (2 client(s) currently connected)
+Sat May 24 15:36:00 BST 2014 : client disconnected @micky [127.0.0.1:50120] (1 client(s) currently connected)
+Sat May 24 15:36:00 BST 2014 : client disconnected @jimmy [127.0.0.1:50121] (0 client(s) currently connected)
+
+-----------------------------------------------------
+Wed Feb 04 13:14:07 GMT 2015 : server started
+
+Wed Feb 04 13:15:10 GMT 2015 : client connected @micky [192.168.56.1:62037] (1 client(s) currently connected)
+Wed Feb 04 13:15:31 GMT 2015 : client connected @emma [192.168.56.1:62038] (2 client(s) currently connected)
+Wed Feb 04 13:17:42 GMT 2015 : file share request [@micky -> @emma] (30 Day Plank Challenge.txt (1052 bytes) : accepted)
+Wed Feb 04 13:18:42 GMT 2015 : Wed Feb 04 13:18:42 GMT 2015 : client disconnected @emma [192.168.56.1:62038] (1 client(s) currently connected)
+client disconnected @micky [192.168.56.1:62037] (1 client(s) currently connected)

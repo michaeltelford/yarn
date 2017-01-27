@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<config>
+  <server>
+    <welcome_message>Welcome to Yarn server --version--</welcome_message>
+    <username_and_password_char_limit>15</username_and_password_char_limit>
+    <server_password></server_password>
+	<server_shutdown_command>[!!]</server_shutdown_command>
+  </server>
+  <network>
+    <connection_limit>25</connection_limit>
+    <server_listening_port>19896</server_listening_port>
+  </network>
+  <proxy>
+	<use_proxy>false</use_proxy>
+	<proxy_address></proxy_address>
+	<proxy_port></proxy_port>
+	<proxy_username></proxy_username>
+	<proxy_password></proxy_password>
+  </proxy>
+  <ssl>
+	<use_ssl>false</use_ssl>
+	<key_store></key_store>
+	<key_store_password></key_store_password>
+  </ssl>
+</config>

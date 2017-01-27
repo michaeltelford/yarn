@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="2"/>
+    <Property name="title" type="java.lang.String" value="Preferences"/>
+    <Property name="alwaysOnTop" type="boolean" value="true"/>
+    <Property name="resizable" type="boolean" value="false"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="pressEnterToSend" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="playAlertSound" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="sendToPortLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="connectTimeoutLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="localPortLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Group type="102" attributes="0">
+                                      <Component id="proxy" min="-2" pref="70" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="ssl" min="-2" pref="70" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="localPort" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <Component id="connectTimeout" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <Component id="sendToPort" min="-2" pref="80" max="-2" attributes="0"/>
+                                  <Component id="save" min="-2" pref="78" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="preferencesLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="enterSendLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="playAlertSoundLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="13" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="preferencesLabel" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="enterSendLabel" min="-2" max="-2" attributes="0"/>
+                  <Component id="pressEnterToSend" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Component id="playAlertSoundLabel" min="-2" max="-2" attributes="0"/>
+                  <Component id="playAlertSound" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="localPortLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="localPort" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="sendToPortLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="sendToPort" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="connectTimeoutLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="connectTimeout" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="proxy" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="ssl" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="save" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="preferencesLabel">
+      <Properties>
+        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+          <Font name="Tahoma" size="12" style="1"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Yarn Messenger Configuration Preferences"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="enterSendLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Press Enter To Send :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="pressEnterToSend">
+      <Properties>
+        <Property name="selected" type="boolean" value="true"/>
+        <Property name="toolTipText" type="java.lang.String" value=""/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="playAlertSoundLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Play Alert Sound :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="playAlertSound">
+      <Properties>
+        <Property name="selected" type="boolean" value="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="localPortLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Local Port (To Bind Onto) : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="localPort">
+      <Properties>
+        <Property name="editable" type="boolean" value="false"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="sendToPortLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Send To Port (Server Listening Port) : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="sendToPort">
+    </Component>
+    <Component class="javax.swing.JLabel" name="connectTimeoutLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Connect Timeout (Milliseconds) : "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="connectTimeout">
+    </Component>
+    <Component class="javax.swing.JButton" name="save">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save"/>
+        <Property name="toolTipText" type="java.lang.String" value="Save"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="proxy">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Proxy"/>
+        <Property name="toolTipText" type="java.lang.String" value="Proxy"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="proxyActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="ssl">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="SSL"/>
+        <Property name="toolTipText" type="java.lang.String" value="Proxy"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="sslActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

@@ -1,0 +1,6 @@
+MAX_TEXT_CHARS: 1000 (Shouldn't_exceed_5000)
+LOCAL_PORT: 19895 (Not_currently_used)
+SEND_TO_PORT: 19896 (Server_listening_port)
+CONNECT_TIMEOUT: 3000 (Given_in_milliseconds)
+SEND_TIMEOUT: 300 (Given_in_milliseconds)
+RECEIVE_TIMEOUT: 0 (Should_always_be_zero)

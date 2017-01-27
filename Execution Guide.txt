@@ -1,0 +1,24 @@
+
+Software Execution Guide
+------------------------
+Open the CD in a file explorer window and follow the below steps in order e.g. start the server first for convience.
+Java must be installed on the testing machine(s) to execute the below applications.
+
+Server Application
+------------------
+Open a command line application.
+Change to the 'YarnServer' directory so that the 'yarn.server.config.xml' file can be located for the next steps.
+Now execute the server .jar file executable by typing the following command 'java -jar dist\YarnServer.jar'.
+NOTE: Don't change to the 'dist' directory as the config file (which is required) will not be found.
+Once running the server will display the config values and server hostname and IP address.  You need to record one of these (IP address is generally best) for connecting clients later.  If the server and client(s) are on the same machine then the 'localhost' or '127.0.0.1' addresses can generally be used also.  
+To stop the server press Ctrl + C.
+
+Client Application
+------------------
+Copy the file 'yarn.client.config.xml' from the 'YarnGUIClient' folder into the 'YarnGUIClient\dist' folder so that the .jar file has access to it.
+Double click the 'YarnGUIClient.jar' executable to start the client application.
+The GUI will display.
+Enter the recorded server address from when you ran the server and click connect.  
+Choose a username and you'll be in the 'yarn' with other connected clients.  Obviously more than one client must be connected in order to communicate.  
+Additional help information is available from the GUI dialog on startup.  
+To stop a client click 'Disconnect' and press the red X as you would with any other application.  

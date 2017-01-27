@@ -1,0 +1,23 @@
+
+Yarn Manual Tests
+-----------------
+All tests below should be done with at least 3 or 4 connected clients where possible.
+
+Connect/Disconnect -> ensure other connected clients get the correct message and the client connection thread stops on the server.
+Send text 		   -> ensure all other clients receive it with the senders username.
+Send a PM 		   -> ensure the correct user gets it and the other clients don't.
+Server commands    -> -c -n -s : ensure the correct result comes back.
+Send file share(s) -> ensure the file is received properly and other client actions don't interfere.
+					  perform an accepted fileshare, rejected fileshare, fileshare where the receiving client disconnects during the receive.
+					  send a small and large file, check the file is built properly when received based on its extension.
+Send voice share(s)-> ensure the recording is received properly and other client actions don't interfere.
+					  perform an accepted voice share, rejected voice share, voice share where the receiving client disconnects during the receive.
+					  send a small and large recording, check they play fully and properly when received.
+Proxy server 	   -> Do all of the above and check that disconnects are being recognised by the server.
+
+When performing the PM and server commands, try to break the system by adding whitespace 
+and using the wrong username etc.
+When performing file shares have other clients sending text throughout as well as reconnects etc.
+
+NOTE: ALL above tests should be carried out first on localhost and then on the LAN using two or more different laptops.
+Different network and application behaviour is typically found between localhost and the LAN e.g. type of Exceptions thrown and network latency.

@@ -1,0 +1,14 @@
+Yarn Feature List
+-----------------
+GUI/CLI interfaces (both clients and server)
+
+Connections (inc. disconnects)
+Text (inc. PM's and Conference)
+File Share
+Voice Share
+
+Proxy
+Secure Comms.
+
+Config
+Logging

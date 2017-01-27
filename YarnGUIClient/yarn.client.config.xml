@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><config>
+  <enter_send>true</enter_send>
+  <sound_alert>true</sound_alert>
+  <local_port>N/A</local_port>
+  <server_listening_port>19896</server_listening_port>
+  <connect_timeout>2500</connect_timeout>
+  <use_proxy>false</use_proxy>
+  <proxy_address></proxy_address>
+  <proxy_port></proxy_port>
+  <proxy_username/>
+  <proxy_password/>
+  <use_ssl>false</use_ssl>
+  <trust_store></trust_store>
+  <trust_store_password></trust_store_password>
+</config>

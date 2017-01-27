@@ -1,0 +1,67 @@
+All (Make a branch for development of the below tasks)
+------------------
+
+
+Yarn Server
+------------------
+BUG FIX -> Connect 3 clients over LAN (2 laptops), fileshare from one laptop to another, accept the file share and then disconnect the receiving client before the file is received (use a large file).  The server will not close the receiving client connection thread (which it should - another issue).  Now reconnect the receiving client and choose a username. Then the other two clients will be disconnected by the server which shouldn't happen. P.S. A proxy was in use when this bug was discovered and might factor into the issue but probably not.
+
+BUG FIX -> When a fileshare receiving client disconects having accepted the file share (the file is being received) the server ClientConnection is disconnected OK but the actual thread doesnt stop.  Use Netbeans debug mode of the server project to see the running threads.
+
+Use regex for parsing textual commands between the clients and server.
+
+Think security -> Investigate preventing DOS attacks by disconnecting clients who are inactive (for a 
+certain amount of time), When a new client connects and the server has reached MAX_CONNECTIONS - make
+space by disconnecting the client who has been inactive the longest and allow new connection from client.
+
+Investigate logging when a client connects via a proxy -> Proxy address etc...
+Log when server is shutdown manually -> Unable to override the System.exit() method.
+Log doesn't currently show when a client connects but hasn't chose an username, only when a client disconnects
+without choosing a username.  Both instances should be logged.  Perhaps -> client has chosen username 'micky'.
+
+Investigate, alert user when their connection is queued (because MAX_CONNECTIONS has been exceeded) ->
+Possibly by accepting client connection BEFORE you search for a null instance of ClientConnection,
+and if you can't find a null instance then using the socket connection you can inform the client and
+then disconnect them.
+
+Add OutputConnections config value -> If true each connect and disconnect is printed out to console using System.out.println(ConnectionDetails) etc...
+
+Yarn GUI Client
+------------------
+Get the isInFocus() method to actually work with playAlertSound() in the scenario below :
+To test playAlertSound() set pref enterSend = false and alertSound = true then connect, enter text into
+message and send via the 'Send' MENU ITEM and you should NOT hear the sound alert.
+
+If Shift + Enter keys are pressed a new line break is created in the send text area as opposed to causing
+a send action as is currently the case.  This should only apply when the Enter Send pref. == true.
+
+Possibly change client logo on GUI.
+
+Get client to create the config file on save of preferences rather than alert that they can't be saved.
+-> Check out File.createNewFile() and File.exists() methods.
+
+Implement a 'Find' text function (GUI window) for the conference text area -> possible highligting, 
+move to text and list number of occurances of chosen text in current yarn (conference) text.
+
+Minimise gui and then close app by right clicking the program tab and clicking close (gui should be connected), the disconnect and exit dialog appears in top right of screen bcos there is no gui on the screen to act a parent component -> Try using YarnGUI.hasFocus() etc at start of dialog action lister method to get gui to appear and then dialog appears as normal.
+
+Get GUI to 'alert' the user when text is received while the client is minimised (it happens now on a 
+disconnect when the client is minimised - The program tab flashes via the OS), possibly use 
+frame.requestFocus() etc...
+
+Add a line count text field to the bottom right of the conference window (same as we currently have in the main GUI window).
+
+Yarn CLI Client
+------------------
+Update code to match GUI client functionality
+
+Yarn Website
+------------------
+Develop it.
+
+Yarn Mobile Client
+------------------
+Develop it.
+
+Done (For SVN Log)
+------------------
